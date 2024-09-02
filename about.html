@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html> 
+ <head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Cafe de au</title> 
+  <link rel="stylesheet" href="index.css"> 
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+ </head> 
+ <body> 
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/logo1.png"></a>
+      <div class="nav-links" id="navLinks">
+    <i class="fa fa-times" onclick="hideMenu()"></i>
+      <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="contacts.html">CONTACTS</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About us</h1>
+      
+  </section> 
+  
+  <!-----About us content----->
+  
+  <section class="about us">
+    <div class="row">
+      <div class="about-col">
+        <h3> We are one of the best shops here in Catanduanes.</h3>
+        <p>Welcome to our cozy corner, where aromatic coffee meets delightful meals. Our small shop is a haven for breakfast enthusiasts and those seeking a savory escape. From tantalizing ala nachos to hearty sandwiches and mouthwatering pasta, we're here to satisfy your cravings. Join us for a culinary journey that blends comfort with culinary excellence.</p>
+        <a href="" class="hero-btn2 blue-btn1">VISIT US NOW</a>
+      </div>
+      <div class="about-col">
+         <img src="images/subbg0.jpg">
+       
+      </div>
+     </div>
+    
+  </section>
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+
+
+    
+  <!--Footer--->
+  
+  <section class="footer">
+    <h3>About Us</h3>
+    <p>We're not just a shop; we're a community of seekers, explorers, <br>and appreciators of the extraordinary.</p>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-youtube"></i>
+      <p>Made with <i class="fa fa-heart-o"></i>by Cafe de au</p>
+    </div>
+    
+    
+  </section>
+    
+    
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!-----JavaScript toggle menu----->
+
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+    
+  </script>
+  
+  
+  
+ </body>
+</html>
